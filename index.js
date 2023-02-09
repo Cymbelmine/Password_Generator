@@ -25,8 +25,6 @@ function generatePassword() {
   passwordEl1.textContent = password1;
   passwordEl2.textContent = password2;
 }
-document.querySelector("input[type='number']").addEventListener("focus", function() {
-  this.value = this.value;
-});
+
 
 
