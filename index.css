@@ -1,0 +1,80 @@
+body {
+margin: 0;
+text-align: center;
+}
+/* Color Palette: Prussian blue #002b4d Cerulean #00badb Spring Green #29f599 Golden Fizz #f9ff3d Rose #ff0080 */
+.card {
+    background: #002b4d;
+    width: 450px;
+    height: 450px;
+    margin: 60px auto;
+    border-radius: 5px;
+    padding: 100px 50px;
+}
+header {
+ text-align: left;  
+}
+p {
+    color: lightcyan;
+    font-size: 24px;
+    line-height: 0;
+    margin-bottom: 50px;
+}
+.title {
+    color: #f9ff3d;
+    font-size: 40px;
+}
+span {
+    color: #29f599;
+}
+label {
+  color: #f9ff3d;
+  font-size: 16px;
+  font-weight: bold;
+}
+input[type="number"] {
+  background: #f9ff3d;
+  color: #ff0080;
+  font-weight: bold;
+  border: none;
+  width: 33px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+button {
+    display: block;
+    margin-top: 50px; 
+    background: #29f599;
+    color: #002b4d;
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 190px;
+    height: 40px;
+}
+.line {
+    margin-top: 50px;
+    border-bottom: 2px solid rgba(0, 43, 77, 0.7);
+}
+.password-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.password {
+    margin: 0 6px;
+    background: #f9ff3d;
+    color: #002b4d;
+    font-weight: bold;
+    border: none;
+    width: 190px;
+    height: 30px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+   line-height: 35px;
+}
